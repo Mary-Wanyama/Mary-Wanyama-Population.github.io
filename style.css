@@ -21,6 +21,7 @@ body{
     padding: 0%;
     margin: 0%;
     height: 100%;
+    width: 100%;
 
 
 }
@@ -30,13 +31,26 @@ body{
     margin: 0%;
     padding: 0%;
     text-align: center;
+
 }
-/* #form1{
-    padding-top: 5vh;
+#form1{
+    padding-top: 13vh;
 }
 #form2{
-    padding-top: 5vh;
+    padding-top: 7vh;
 }
 #form3{
-    padding-top: 5vh;
-} */
+    padding-top: 7vh;
+}
+.text{
+    height: 3vh;
+    width: 30%;
+    display: block;
+    margin-left: 36%;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+.btn{
+    height: 2.5vh;
+    width: 7%;
+}
