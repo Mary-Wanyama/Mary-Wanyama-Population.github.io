@@ -1,5 +1,7 @@
+document.addEventListener('DOMContentLoaded', function(event) {
+    event.preventDefault()
 
- let url
+    let url
  let urlPath;
 document.querySelector('#form1').addEventListener('submit', function(e) {
     e.preventDefault()
@@ -25,5 +27,14 @@ document.querySelector('#form1').addEventListener('submit', function(e) {
     document.querySelector('#prob').innerHTML = urlPath.probability
     document.querySelector('#count').innerHTML = urlPath.count
 } )
+
+document.querySelector('#form3').addEventListener('change', function(e) {
+    e.preventDefault()
+
+})
+
+
+})
+ 
 
 

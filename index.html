@@ -29,7 +29,7 @@
             <div id="data">
                 <h3>Nation</h3>
                 <h3>year</h3>
-                <h3>slug nation</h3>
+                <h3>Population</h3>
                 <!-- id nation, nation, id year, year,  population, slug nation  -->
             </div>
         </div>
@@ -44,11 +44,16 @@
                 <input type="text" name="name" class="text">
                 <input type="submit" class="btn">
             </form>
-            <form action="https://datausa.io/api/data?drilldowns=Nation&measures=Population" id="form3">
-                <label for="">enter your name</label>
-                <input type="text" name="Year" class="text">
-                <input type="submit" class="btn">
-            </form>
+            <select name="form3" id="form3" class="text">
+                <option value="year2020">2020</option>
+                <option value="year2019">2019</option>
+                <option value="year2018">2018</option>
+                <option value="year2017">2017</option>
+                <option value="year2016">2016</option>
+                <option value="year2015">2015</option>
+                <option value="year2014">2014</option>
+                <option value="year2013">2013</option>
+            </select>
         </div>
     </div>
     <!-- <footer>see you again</footer> -->
