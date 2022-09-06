@@ -20,10 +20,10 @@ document.querySelector('#form1').addEventListener('submit', function(e) {
     .then(data => console.log(data))
     .catch(error => console.log(error))
 
-    // document.querySelector('#name').innerHTML = urlPath.name
-    // document.querySelector('#gender1').innerHTML = urlPath.gender
-    // document.querySelector('#prob').innerHTML = urlPath.probability
-    // document.querySelector('#count').innerHTML = urlPath.count
+    document.querySelector('#name').innerHTML = urlPath.name
+    document.querySelector('#gender1').innerHTML = urlPath.gender
+    document.querySelector('#prob').innerHTML = urlPath.probability
+    document.querySelector('#count').innerHTML = urlPath.count
 } )
 
 
