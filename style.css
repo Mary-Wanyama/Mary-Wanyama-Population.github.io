@@ -14,7 +14,7 @@ body{
     bottom:0px;
     left:0px;
 }
-/* #display{
+#display{
     background-image: url('research.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +31,7 @@ body{
     padding: 0%;
     text-align: center;
 }
-#form1{
+/* #form1{
     padding-top: 5vh;
 }
 #form2{
