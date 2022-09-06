@@ -1,0 +1,42 @@
+/* body{
+    height: device-height;
+}
+#parent{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: inherit;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
+#display{
+    background-image: url('research.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+
+
+}
+#form{
+    background-color: greenyellow;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+#form1{
+    padding-top: 5vh;
+}
+#form2{
+    padding-top: 5vh;
+}
+#form3{
+    padding-top: 5vh;
+} */
