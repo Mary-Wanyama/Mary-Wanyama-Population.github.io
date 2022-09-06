@@ -12,24 +12,36 @@
     <div id="parent">
         <div id="display">
             <div id="gender">
+                <h4 id="name">name</h4>
+                <h4 id="gender1">gender</h4>
+                <h4 id="prob">probability</h4>
+                <h4 id="count"> count</h4>
             <!-- name, gender, probability, count -->
             </div>
             <hr>
             <div id="age">
+                <h4 id="name1">name</h4>
+                <h4 id="age1">age</h4>
+                <h4 id="count1">count</h4>
                 <!-- name, age, count -->
             </div>
             <hr>
             <div id="data">
+                <h3>id Nation</h3>
+                <h3>Nation</h3>
+                <h3>id year</h3>
+                <h3>year</h3>
+                <h3>slug nation</h3>
                 <!-- id nation, nation, id year, year,  population, slug nation  -->
             </div>
         </div>
         <div id="form">
             <form action="https://api.genderize.io/?name=dakota" id="form1">
                 <label for="">enter your name</label>
-                <input type="text" name="name" class="text">
+                <input type="text" name="name" class="text" id="text1">
                 <input type="submit" class="btn">
             </form>
-            <form action="https://api.agify.io/?name=bella" id="form2">
+            <form action="https://api.agify.io/?name=bella" id="form2" method="POST">
                 <label for="">enter your name</label>
                 <input type="text" name="name" class="text">
                 <input type="submit" class="btn">
@@ -42,5 +54,6 @@
         </div>
     </div>
     <!-- <footer>see you again</footer> -->
+    <script src="script.js"></script>
 </body>
 </html>

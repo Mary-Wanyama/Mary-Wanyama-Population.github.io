@@ -22,11 +22,11 @@ body{
     margin: 0%;
     height: 100%;
     width: 100%;
-
+    text-align: center;
 
 }
 #form{
-    background-color: greenyellow;
+    background-color: rgb(250, 223, 134);
     height: 100%;
     margin: 0%;
     padding: 0%;
@@ -53,4 +53,7 @@ body{
 .btn{
     height: 2.5vh;
     width: 7%;
+}
+#gender{
+    padding-top: 12vh;
 }
