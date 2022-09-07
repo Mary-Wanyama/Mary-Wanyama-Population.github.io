@@ -28,13 +28,29 @@ document.querySelector('#form1').addEventListener('submit', function(e) {
     document.querySelector('#count').innerHTML = urlPath.count
 } )
 
-document.querySelector('#form3').addEventListener('change', function(e) {
+document.querySelector('#form3').addEventListener('change', function(e){
     e.preventDefault()
 
+    url = "https://datausa.io/api/data?drilldowns=Nation&measures=Population"
+    fetch(url, {
+        method: 'POST',
+
+    })
+    .then(res => res.json())
+    .then(data=>console.log(data))
+    .catch(error => console.log(error))
+
+    const formData = new FormData()
+    formData.append('username',userName)
+
+    if(e.target.value ===url.data[0].Year){
+        document.querySelector('#nation').innerHTML = url.data['0'].Nation
+        document.querySelector('#year').innerHTML = url.data[0].Year
+        document.querySelector('#pop').innerHTML = url.data[0].Population
+    }
+    console.log(e)
 })
 
 
 })
  
-
-
