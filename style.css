@@ -38,12 +38,12 @@ h5{
 }
 h4, h3{
     background-color: goldenrod;
-    box-shadow: 0.2vw 0.2vw 0.2em red;
+    box-shadow: 0.2vw 0.2vw 0.2em black;
     font-size: 1.3vw;
     width: 40%;
     margin-left: 18%;
     padding-left: 1vw;
-    height: 3vh;
+    height: 4vh;
 
 }
 #form{
@@ -76,10 +76,9 @@ h2{
     width: 7%;
 }
 #gender{
-    padding-top: 3vh;
+    padding-top: 2vh;
 } 
 #data{
-    padding-top: 1vh;
     padding-bottom: 3vh;
 }
 .stars{
@@ -91,7 +90,7 @@ h2{
     overflow-y: scroll;
     padding-bottom: 0%;
     margin-bottom: 0.2vw;
-    height: 7vw;
+    height: 9.5vh;
     
 }
 
