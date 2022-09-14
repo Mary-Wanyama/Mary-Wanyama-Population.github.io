@@ -18,3 +18,6 @@ more information is provided of the licence file.
 Mary wanyama
 #### Contact information
 mary.wanyama@student.moringaschool.com
+
+##### link to the site
+https://mary-wanyama.github.io/Mary-Wanyama-Population.github.io/
