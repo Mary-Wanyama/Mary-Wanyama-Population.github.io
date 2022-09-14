@@ -8,58 +8,58 @@
     <title>Data</title>
 </head>
 <body>
-    <marquee behavior="" direction="right"><header>you are welcome</header></marquee>
+    
     <div id="parent">
         <div id="display">
+            <marquee behavior="" direction="right"><header><h6>you are welcome</h6></header></marquee>
             <div id="gender">
                 <h4 id="name">name</h4>
                 <h4 id="gender1">gender</h4>
+                <h4 id="age1">age</h4>
                 <h4 id="prob">probability</h4>
                 <h4 id="count"> count</h4>
+                
             <!-- name, gender, probability, count -->
             </div>
-            <hr>
-            <div id="age">
-                <h4 id="name1">name</h4>
-                <h4 id="age1">age</h4>
-                <h4 id="count1">count</h4>
-                <!-- name, age, count -->
-            </div>
-            <hr>
+
+            <p class="p"></p>
             <div id="data">
                 <h3 id="nation">Nation</h3>
                 <h3 id="year">year</h3>
                 <h3 id="pop">Population</h3>
                 <!-- id nation, nation, id year, year,  population, slug nation  -->
             </div>
+            <!-- <p id="p">It may return undefined when the allowed number of times of using the API are exhausted</p>
+            <div><h5>comments</h5><ul type="none" id="comments"></ul></div> -->
         </div>
         <div id="form">
-            <form id="form1">
-                <label for="">enter your name</label>
-                <input type="text" name="name" class="text" id="text1">
-                <input type="submit" class="btn">
-            </form>
-            <form action="https://api.agify.io/?name=bella" id="form2" method="POST">
+            <!-- <marquee behavior="" direction="right"><header><h6>you are welcome</h6></header></marquee> -->
+            <form id="form2">
                 <label for="">enter your name</label>
                 <input type="text" name="name" class="text">
                 <input type="submit" class="btn">
+                
             </form>
             <select name="form3" id="form3">
-                <option value="year2020">2020</option>
-                <option value="year2019">2019</option>
-                <option value="year2018">2018</option>
-                <option value="year2017">2017</option>
-                <option value="year2016">2016</option>
-                <option value="year2015">2015</option>
-                <option value="year2014">2014</option>
-                <option value="year2013">2013</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+                <option value="2013">2013</option>
             </select>
-            <!-- <form action="https://datausa.io/api/data?drilldowns=Nation&measures=Population" id="form3">
-                <label for="">enter your name</label>
-                <input type="text" name="Year" class="text">
+            <p>It may return undefined when the allowed number of times of using the API are exhausted</p>
+            <h2>Rate the application</h2>
+            <span class="stars" id="star1">★</span><span class="stars" id="star2">★</span><span class="stars" id="star3">★</span><span class="stars" id="star4">★</span><span class="stars" id="star5">★</span>
+            <!-- <h2>Leave your comment</h2>
+            <form id="form1">
+                <input type="text" name="name" class="text" id="text1">
                 <input type="submit" class="btn">
-            </form> -->
-        </div>
+            </form>
+        </div> -->
+        
     </div>
     <!-- <footer>see you again</footer> -->
     <script src="script.js"></script>

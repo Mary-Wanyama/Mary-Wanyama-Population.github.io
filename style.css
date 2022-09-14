@@ -1,5 +1,6 @@
 body{
     height: device-height;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #parent{
     display: grid;
@@ -23,7 +24,24 @@ body{
     height: 100%;
     width: 100%;
     text-align: center;
+    color: white;
+    
 
+}
+h5{
+    color: black;
+    font-size: 2vw;
+    text-decoration: underline;
+    padding-bottom: 0%;
+    margin-bottom: 0.2vw;
+}
+h4, h3{
+    background-color: goldenrod;
+    box-shadow: 0.4vw 0.4vw 0.2em red;
+    font-size: 1.3vw;
+    width: 40%;
+    margin-left: 18%;
+    padding-left: 1vw;
 }
 #form{
     background-color: rgb(250, 223, 134);
@@ -33,7 +51,7 @@ body{
     text-align: center;
 
 }
-#form1{
+h2{
     padding-top: 13vh;
 }
 #form2{
@@ -56,4 +74,46 @@ body{
 }
 #gender{
     padding-top: 12vh;
+} 
+.stars{
+    color: grey;
+    font-size: 4vw;
 }
+/*
+#comments{
+    overflow-y: scroll;
+    padding-bottom: 0%;
+    margin-bottom: 0.2vw;
+    height: 7vw;
+    
+}
+li{
+    font-size: 1vw;
+    font-weight: 400;
+    padding-top: 0vw;
+    margin-top: 0vw;
+}
+#form3{
+    font-size: 1.2vw;
+    font-weight: 500;
+    height: fit-content;
+    width: fit-content;
+}
+label{
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+.p{
+   padding: 0%;
+   width: 100%;
+   background-color: black;
+   height: 0.5vh;
+   margin: 0%;
+   margin-top: 0.2vw;
+   margin-bottom: 0.2vw;
+}
+#p{
+    color: white;
+    background-color: red;
+    font-size: 1vw;
+} */

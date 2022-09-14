@@ -18,4 +18,3 @@ more information is provided of the licence file.
 Mary wanyama
 #### Contact information
 mary.wanyama@student.moringaschool.com
-
