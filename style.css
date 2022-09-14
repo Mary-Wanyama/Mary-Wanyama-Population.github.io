@@ -55,13 +55,15 @@ h4, h3{
 
 }
 h2{
-    padding-top: 13vh;
+    padding-top: 5vh;
+    margin: 0%;
 }
 #form2{
     padding-top: 7vh;
 }
 #form3{
-    margin-top: 7vh;
+    margin-top: 0vh;
+    padding-top: 0%;
 }
 .text{
     height: 3vh;
@@ -72,8 +74,10 @@ h2{
     margin-top: 2vh;
 }
 .btn{
-    height: 2.5vh;
-    width: 7%;
+
+    font-size: 1vw;
+    height: fit-content;
+    width: fit-content;
 }
 #gender{
     padding-top: 2vh;
@@ -123,4 +127,9 @@ label{
     color: white;
     background-color: red;
     font-size: 1vw;
+}
+#select{
+    font-size: 1.1vw;
+    padding-bottom: 0%;
+    margin-bottom: 1vh;
 }

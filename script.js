@@ -8,7 +8,7 @@ document.querySelector('#form2').addEventListener('submit', function(e) {
     e.preventDefault()
 
 
-    const userName = document.querySelector('#text1').value
+    const userName = document.querySelector('#text2').value
 
     url = 'https://api.genderize.io/'
     urlPath= url + `?name=${userName}`
@@ -27,7 +27,7 @@ document.querySelector('#form2').addEventListener('submit', function(e) {
   e.preventDefault()
   url = 'https://api.agify.io/'
 
-  const userName = document.querySelector('#text1').value
+  const userName = document.querySelector('#text2').value
   urlPath= url + `?name=${userName}`
 
   fetch(urlPath)
