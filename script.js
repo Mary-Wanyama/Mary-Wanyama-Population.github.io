@@ -41,21 +41,21 @@ document.querySelector('#form2').addEventListener('submit', function(e) {
   console.log(e.target)
   e.reset()
 })
-// document.querySelector('#form3').addEventListener('change', function(e) {
-//   e.preventDefault()
-//   const updatedChange = document.querySelector('#form3').value
-//   url = "https://datausa.io/api/data?drilldowns=Nation&measures=Population&year="
-//   urlPath = url + updatedChange
+document.querySelector('#form3').addEventListener('change', function(e) {
+  e.preventDefault()
+  const updatedChange = document.querySelector('#form3').value
+  url = "https://datausa.io/api/data?drilldowns=Nation&measures=Population&year="
+  urlPath = url + updatedChange
   
-//   fetch(urlPath)
-//   .then(res=> res.json())
-//   .then(data =>{
-//     document.querySelector('#nation').innerHTML ='Nation: ' + data.data[0].Nation
-//     document.querySelector('#year').innerHTML = 'Year: ' + data.data[0].Year
-//     document.querySelector('#pop').innerHTML ='Population: ' +  data.data[0].Population
-//   })
-//   .catch(error=> console.log(error))
-// })
+  fetch(urlPath)
+  .then(res=> res.json())
+  .then(data =>{
+    document.querySelector('#nation').innerHTML ='Nation: ' + data.data[0].Nation
+    document.querySelector('#year').innerHTML = 'Year: ' + data.data[0].Year
+    document.querySelector('#pop').innerHTML ='Population: ' +  data.data[0].Population
+  })
+  .catch(error=> console.log(error))
+})
 const star1 = document.querySelector('#star1')
 star1.addEventListener('click', function(e) {
   e.preventDefault()
