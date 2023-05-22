@@ -59,6 +59,10 @@ document.querySelector('#form3').addEventListener('change', function(e) {
   })
   .catch(error=> console.log(error))
 })
-
+document.querySelector('#button').addEventListener('click', function(e) {
+  e.preventDefault()
+  document.querySelector('#hello').id = 'division'
+  document.querySelector('#division').id = 'hello'
+})
 
 })
