@@ -10,15 +10,11 @@
 <body>
     
     <div id="parent">
-        <div id="display">
-            <marquee behavior="" direction="right"><header><h6>Population Statistics</h6></header></marquee>
-
-            
+        <div id="display">           
             <div id="data">
                 <h3 id="nation">Nation</h3>
                 <h3 id="year">year</h3>
                 <h3 id="pop">Population</h3>
-                <!-- id nation, nation, id year, year,  population, slug nation  -->
             </div>
             <p class="p"></p>
             <div id="gender">
@@ -27,14 +23,11 @@
                 <h4 id="age1">age</h4>
                 <h4 id="prob">probability</h4>
                 <h4 id="count"> count</h4>
-                
-            <!-- name, gender, probability, count -->
             </div>
             
         </div>
         <div id="form">
-            <marquee behavior="" direction="right"><header><h6>Population Statistics</h6></header></marquee>
-                <h6 id="select">Select the year to see the population <br> of that year in the country</h6>
+                <h6 id="select">Select a year</h6>
             <select name="form3" id="form3">
                 <option value="2020">2020</option>
                 <option value="2019">2019</option>
@@ -46,16 +39,10 @@
                 <option value="2013">2013</option>
             </select>
             <form id="form2">
-                <label for="">Enter your name to see stats of your name globally</label>
+                <label for="">Enter any name: </label>
                 <input type="text" name="name" class="text" id="text2">
                 <input type="submit" class="btn">
                 
-            </form>
-            <p>It may return undefined when the allowed number of times of using the API are exhausted</p>
-            <h2>Leave your comment</h2>
-            <form id="form1">
-                <input type="text" name="name" class="text" id="text1">
-                <input type="submit" class="btn">
             </form>
         </div>
         

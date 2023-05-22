@@ -6,3 +6,9 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow-y: hidden;
 }
+#form{
+    text-align: center;
+}
+#display{
+    display: none;
+}
