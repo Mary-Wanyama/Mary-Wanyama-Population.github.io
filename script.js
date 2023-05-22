@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', function(event) {
 document.querySelector('#form2').addEventListener('submit', function(e) {
     e.preventDefault()
 
+    document.querySelector('#hello').id = 'division'
+    document.querySelector('#division').id = 'hello'
+    document.querySelector('#data').class = 'show'
 
     const userName = document.querySelector('#text2').value
 
@@ -41,6 +44,9 @@ document.querySelector('#form2').addEventListener('submit', function(e) {
 })
 document.querySelector('#form3').addEventListener('change', function(e) {
   e.preventDefault()
+  document.querySelector('#hello').id = 'division'
+  document.querySelector('#division').id = 'hello'
+  document.querySelector('#gender').class = 'show'
   const updatedChange = document.querySelector('#form3').value
   url = "https://datausa.io/api/data?drilldowns=Nation&measures=Population&year="
   urlPath = url + updatedChange
@@ -54,15 +60,5 @@ document.querySelector('#form3').addEventListener('change', function(e) {
   .catch(error=> console.log(error))
 })
 
-const form1 =document.querySelector('#form1')
-
-form1.addEventListener('submit', function(params) {
-  params.preventDefault()
-  const lis = document.createElement('li')
-  lis.textContent = document.querySelector('#text1').value
-  lis.style.color = 'black'
-  document.querySelector('#comments').appendChild(lis)
-  params.reset()
-})
 
 })
