@@ -56,46 +56,7 @@ document.querySelector('#form3').addEventListener('change', function(e) {
   })
   .catch(error=> console.log(error))
 })
-const star1 = document.querySelector('#star1')
-star1.addEventListener('click', function(e) {
-  e.preventDefault()
-  star1.style.color = 'red'
-  console.log(e.target)
-})
-const star2 = document.querySelector('#star2')
-star2.addEventListener('click', function (e) {
-  e.preventDefault()
-  star1.style.color = 'red'
-  star2.style.color = 'red'
 
-})
-const star3 = document.querySelector('#star3')
-star3.addEventListener('click', function (e) {
-  e.preventDefault()
-  star1.style.color = 'red'
-  star2.style.color = 'red'
-  star3.style.color = 'red'
-
-})
-const star4 = document.querySelector('#star4')
-star4.addEventListener('click', function (e) {
-  e.preventDefault()
-  star1.style.color = 'red'
-  star2.style.color = 'red'
-  star3.style.color = 'red'
-  star4.style.color = 'red'
-
-})
-const star5 = document.querySelector('#star5')
-star5.addEventListener('click', function (e) {
-  e.preventDefault()
-  star1.style.color = 'red'
-  star2.style.color = 'red'
-  star3.style.color = 'red'
-  star4.style.color = 'red'
-  star5.style.color = 'red'
-
-})
 const form1 =document.querySelector('#form1')
 
 form1.addEventListener('submit', function(params) {
