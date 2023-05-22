@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
     let url
     let urlPath;
+    let age
 document.querySelector('#form2').addEventListener('submit', function(e) {
     e.preventDefault()
 
@@ -12,14 +13,11 @@ document.querySelector('#form2').addEventListener('submit', function(e) {
 
     url = 'https://api.genderize.io/'
     urlPath= url + `?name=${userName}`
-
     fetch(urlPath)
     .then(res => res.json())
     .then(data=>{
-      document.querySelector('#name').innerHTML = 'Name: ' + data.name
-      document.querySelector('#gender1').innerHTML = 'Gender: ' + data.gender
-      document.querySelector('#prob').innerHTML ='Probability: ' + data.probability
-      document.querySelector('#count').innerHTML = 'Count: ' + data.count
+      document.querySelector('#name').innerHTML = data.name
+      document.querySelector('#gender1').innerHTML =`${data.name} is a ${data.gender} name that is common among ${age}. The research was done for ${data.count} of people and the accuracy of the information is ${data.probability}` 
     })
 
 } )
@@ -33,7 +31,7 @@ document.querySelector('#form2').addEventListener('submit', function(e) {
   fetch(urlPath)
   .then(res=> res.json())
   .then(data=> {
-    document.querySelector('#age1').textContent = 'Age: ' + data.age
+    age = data.age
   })
   .catch(error => console.log(error))
 
@@ -50,9 +48,8 @@ document.querySelector('#form3').addEventListener('change', function(e) {
   fetch(urlPath)
   .then(res=> res.json())
   .then(data =>{
-    document.querySelector('#nation').innerHTML ='Nation: ' + data.data[0].Nation
-    document.querySelector('#year').innerHTML = 'Year: ' + data.data[0].Year
-    document.querySelector('#pop').innerHTML ='Population: ' +  data.data[0].Population
+    document.querySelector('#year').innerHTML = data.data[0].Year
+    document.querySelector('#pop').innerHTML =`The population of ${data.data[0].Nation} in the year ${data.data[0].Year} is ${data.data[0].Population} `
   })
   .catch(error=> console.log(error))
 })
