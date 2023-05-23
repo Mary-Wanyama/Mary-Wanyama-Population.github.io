@@ -2,7 +2,7 @@ body{
     background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMVgVYx8MkGDKAI5TeTuRhkcp95e-IwC5Jj3x-Lq0JRw&s') ;
     background-repeat: no-repeat;
     background-size: cover;
-    height: device-height;
+    height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow-y: hidden;
 }
@@ -10,7 +10,7 @@ body{
     margin: 0;
     position: absolute;
     left: 40%;
-    top: 50%;
+    top: 45%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     height: 10vw;
