@@ -49,3 +49,18 @@ hr{
 #show{
     display: none;
 }
+input, select{
+    padding: 1vw;
+    font: inherit;
+    background-color: white;
+    border-radius: 5%;
+}
+.button{
+    padding: 1vw;
+    font-size: inherit;
+    font-family: inherit;
+    border-radius: 5%;
+    border-color: white;
+    background-color: white;
+    box-shadow: 0.1vw 0.1vw 0.1em #aaaaaa;
+}
