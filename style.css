@@ -50,17 +50,17 @@ hr{
     display: none;
 }
 input, select{
-    padding: 1vw;
+    padding: 0.4vw;
     font: inherit;
     background-color: white;
-    border-radius: 5%;
+    border-radius: 8%;
 }
 .button{
-    padding: 1vw;
+    padding: 0.3vw;
     font-size: inherit;
     font-family: inherit;
-    border-radius: 5%;
+    border-radius: 8%;
     border-color: white;
     background-color: white;
-    box-shadow: 0.1vw 0.1vw 0.1em #aaaaaa;
+    box-shadow: 0.1vw 0.1vw 0.1em greenyellow;
 }
