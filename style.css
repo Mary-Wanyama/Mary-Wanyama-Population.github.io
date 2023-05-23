@@ -10,10 +10,10 @@ body{
     margin: 0;
     position: absolute;
     left: 40%;
-    top: 45%;
+    top: 50;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    height: 10vw;
+    height: fit-content;
     padding: 1vw;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
