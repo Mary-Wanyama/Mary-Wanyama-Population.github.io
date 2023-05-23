@@ -32,12 +32,12 @@ hr{
 .display{
     margin: 0;
     position: absolute;
-    left: 20%;
-    width: 60%;
+    left: 30%;
+    width: 40%;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    height: 20vw;
+    height: fit-content;
     padding: 1vw;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
