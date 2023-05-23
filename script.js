@@ -10,7 +10,9 @@ document.querySelector('#form2').addEventListener('submit', function(e) {
 
     document.querySelector('#hello').id = 'division'
     document.querySelector('#division').id = 'hello'
-    document.querySelector('#data').class = 'show'
+    document.querySelector('.data').id = 'show'
+    document.querySelector('.gender').id = 'new'
+
 
     const userName = document.querySelector('#text2').value
 
@@ -46,7 +48,9 @@ document.querySelector('#form3').addEventListener('change', function(e) {
   e.preventDefault()
   document.querySelector('#hello').id = 'division'
   document.querySelector('#division').id = 'hello'
-  document.querySelector('#gender').class = 'show'
+  document.querySelector('.data').id = 'new'
+  document.querySelector('.gender').id = 'show'
+
   const updatedChange = document.querySelector('#form3').value
   url = "https://datausa.io/api/data?drilldowns=Nation&measures=Population&year="
   urlPath = url + updatedChange
