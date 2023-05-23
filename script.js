@@ -20,7 +20,7 @@ document.querySelector('#form2').addEventListener('submit', function(e) {
     .then(res => res.json())
     .then(data=>{
       document.querySelector('#name').innerHTML = data.name
-      document.querySelector('#gender1').innerHTML =`${data.name} is a ${data.gender} name that is common among ${age}. The research was done for ${data.count} of people and the accuracy of the information is ${data.probability}` 
+      document.querySelector('#gender1').innerHTML =`${data.name} is a ${data.gender} name that is common among ${age} year olds. The research was done for ${data.count} of people and the accuracy of the information is ${data.probability}` 
     })
 
 } )
@@ -61,8 +61,8 @@ document.querySelector('#form3').addEventListener('change', function(e) {
 })
 document.querySelector('#button').addEventListener('click', function(e) {
   e.preventDefault()
-  document.querySelector('#hello').id = 'division'
-  document.querySelector('#division').id = 'hello'
+  document.querySelector('.display').id = 'division'
+  document.querySelector('.form').id = 'hello'
 })
 
 })
