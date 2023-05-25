@@ -20,4 +20,4 @@ Mary wanyama
 mary.wanyama@student.moringaschool.com
 
 ##### link to the site
-https://mary-wanyama.github.io/Mary-Wanyama-Population.github.io/
+https://mary-wanyama-population-github-m5yjsoroq-mary-wanyama.vercel.app/
